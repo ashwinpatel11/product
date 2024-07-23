@@ -1,13 +1,13 @@
-package com.techavidus.product;
+package com.example.assigmment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductApplication {
+public class AssigmmentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductApplication.class, args);
+		SpringApplication.run(AssigmmentApplication.class, args);
 	}
 
 }

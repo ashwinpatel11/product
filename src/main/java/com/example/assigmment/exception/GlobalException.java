@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @RestControllerAdvice
 public class GlobalException {
 
-    @ExceptionHandler(ProductNotFoundException.class)
-    public ResponseEntity<ApiResponse> handleResourceNotFound(ProductNotFoundException ex) {
+    @ExceptionHandler(ProductException.class)
+    public ResponseEntity<ApiResponse> handleResource(ProductException ex) {
         ApiResponse response = new ApiResponse();
         response.setMsg(ex.getMessage());
         response.setSuccess(true);
